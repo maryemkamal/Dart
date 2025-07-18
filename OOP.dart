@@ -4,7 +4,6 @@ class Person {
 
   Person(this._name, this._age);
 
-  // Getter & Setter for name
   String get name => _name;
   set name(String newName) {
     if (newName.isNotEmpty) {
@@ -14,7 +13,6 @@ class Person {
     }
   }
 
-  // Getter & Setter for age
   int get age => _age;
   set age(int newAge) {
     if (newAge >= 18) {
